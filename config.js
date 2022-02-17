@@ -4,7 +4,7 @@
 // Tomar la configuración del entorno de node, si no existe usamos development
 const env = process.env.NODE_ENV || 'development';
 
-// env = 'development';
+// env = 'development'
 const knexfile = require('./knexfile');
 const knex = require('knex');
 
